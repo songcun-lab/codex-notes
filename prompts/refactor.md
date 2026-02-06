@@ -68,3 +68,9 @@ class Solution:
 ```text
 docs: add refactor result example for backtracking combination
 
+### 我的理解补充
+- 剪枝公式一开始很抽象，但拆成 remaining / max_start 后立刻清楚
+- 闭包 dfs 让参数数量明显减少，可读性更好
+- 这是我第一次感受到“重构不是改写，而是翻译意图”
+
+
